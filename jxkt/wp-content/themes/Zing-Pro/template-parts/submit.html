@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=7"/>
+<title>提交成功</title>
+
+<style type="text/css">
+    *{margin:0;padding:0;font-family:arial,sans-serif;font-size:14px;}
+    body,html{height:100%;}
+    body{background:#e9eaef;}
+    .wrapper{margin: 0 auto;background: #fff;width:587px;height:196px;padding:80px 0 0 80px;top:50%;margin-top:-150px;position:relative;border: 2px solid #e4e4e4;border-radius: 5px;}
+    h3{font-weight:700;font-size:16px;}
+    .tm{padding-top:24px;}
+    .tm span{color:#e10602;padding:0 5px;font-weight:700;}
+    .btn{padding-top:14px;}
+    .btn a{display: inline-block;color: #0078ff;border: 2px solid #0078ff;padding: 7px 30px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;text-transform: uppercase;margin-top: 10px;text-decoration: none;}
+</style>
+
+</head>
+
+<body>
+
+
+<div class="wrapper">
+	<h3>提交成功，请耐心等待，我们将尽快与您联系！</h3>
+	<p class="tm">
+		本页<span id="time">6</span>秒后自动返回上一页...
+	</p>
+	<p class="btn">
+		<a id="Btn" href="javascript:history.go(-1)">返回之前页面</a>
+	</p>
+</div>
+
+
+<script type="text/javascript">
+    function sendStats(url){
+        var n = "log_"+ (new Date()).getTime();
+        var c = window[n] = new Image();
+        c.onload = (c.onerror=function(){window[n] = null;});
+        c.src = 'javascript:history.go(-1)' + url;
+        c = null;  
+    }
+    var time = document.getElementById('time');
+    var btn = document.getElementById('Btn');
+    function count(){
+        if( +time.innerHTML > 0 ){
+            time.innerHTML = time.innerHTML - 1;
+        }else{
+            sendStats('gotobaidu');
+            location.href = btn.href;
+        }
+    }
+    setInterval(count , 600);
+    btn.onclick = function(){
+        sendStats('gotobaidu');
+    };
+</script>
+
+
+</body>
+</html>
