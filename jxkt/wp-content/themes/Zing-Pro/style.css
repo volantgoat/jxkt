@@ -2151,7 +2151,7 @@ form.inline button[type=submit]{background-color:transparent;border:0;color:#1a1
 /*合作伙伴*/
 .module-full-6 ul li{width:18.57%;float:left;padding-right:20px}
 .module-full-6 .img-thumbnail{line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;display:inline-block;max-width:100%;height:auto;margin-bottom:15px}
-.module-full-6 ul li:nth-child(10),.module-full-6 ul li:nth-child(15),.module-full-6 ul li:nth-child(5){padding-right:0}
+.module-full-6 ul li:nth-child(10),.module-full-6 ul li:nth-child(15),.module-full-6 ul li:nth-child(5){padding-right:20px}
 @media (max-width:767px){
 .module-full-6 ul li{width:45.8%}
 .module-full-6 ul li:nth-child(2),.module-full-6 ul li:nth-child(4),.module-full-6 ul li:nth-child(6),.module-full-6 ul li:nth-child(8),.module-full-6 ul li:nth-child(10),.module-full-6 ul li:nth-child(12),.module-full-6 ul li:nth-child(14){padding-right:0}
