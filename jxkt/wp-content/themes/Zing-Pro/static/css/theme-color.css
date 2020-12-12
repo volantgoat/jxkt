@@ -1,0 +1,776 @@
+﻿/*
+* @Author: 大胡子
+* @Email:  dahuzi@xintheme.com
+* @Link:   www.dahuzi.me
+* @Date:   2020-04-30 11:36:53
+* @Last Modified by:   dahuzi
+* @Last Modified time: 2020-05-02 10:35:52
+*/
+
+/*公告栏配色*/
+#hellobar.notice_color_a{background:#f44336}
+#hellobar.notice_color_b{background:#e91e63}
+#hellobar.notice_color_c{background:#9c27b0}
+#hellobar.notice_color_d{background:#673ab7}
+#hellobar.notice_color_e{background:#3f51b5}
+#hellobar.notice_color_f{background:#2196f3}
+#hellobar.notice_color_g{background:#03a9f4}
+#hellobar.notice_color_h{background:#00bcd4}
+#hellobar.notice_color_i{background:#009688}
+#hellobar.notice_color_j{background:#4caf50}
+#hellobar.notice_color_k{background:#ff9800}
+#hellobar.notice_color_l{background:#ff5722}
+#hellobar.notice_color_m{background:#fbfbfb;border-bottom:1px solid #f3f3f3;color:#777777}
+
+/*导航栏配色*/
+.zing_color_a .header-area.header-v2 .header-contact-info ul li .iocn-holder span:before{color:#f44336}
+.zing_color_a .header-area.header-v2 .header-contact-info ul li:hover .iocn-holder span::before{border-color:#f44336}
+.zing_color_b .header-area.header-v2 .header-contact-info ul li .iocn-holder span:before{color:#e91e63}
+.zing_color_b .header-area.header-v2 .header-contact-info ul li:hover .iocn-holder span::before{border-color:#e91e63}
+.zing_color_c .header-area.header-v2 .header-contact-info ul li .iocn-holder span:before{color:#9c27b0}
+.zing_color_c .header-area.header-v2 .header-contact-info ul li:hover .iocn-holder span::before{border-color:#9c27b0}
+.zing_color_d .header-area.header-v2 .header-contact-info ul li .iocn-holder span:before{color:#673ab7}
+.zing_color_d .header-area.header-v2 .header-contact-info ul li:hover .iocn-holder span::before{border-color:#673ab7}
+.zing_color_e .header-area.header-v2 .header-contact-info ul li .iocn-holder span:before{color:#3f51b5}
+.zing_color_e .header-area.header-v2 .header-contact-info ul li:hover .iocn-holder span::before{border-color:#3f51b5}
+.zing_color_f .header-area.header-v2 .header-contact-info ul li .iocn-holder span:before{color:#2196f3}
+.zing_color_f .header-area.header-v2 .header-contact-info ul li:hover .iocn-holder span::before{border-color:#2196f3}
+.zing_color_g .header-area.header-v2 .header-contact-info ul li .iocn-holder span:before{color:#03a9f4}
+.zing_color_g .header-area.header-v2 .header-contact-info ul li:hover .iocn-holder span::before{border-color:#03a9f4}
+.zing_color_h .header-area.header-v2 .header-contact-info ul li .iocn-holder span:before{color:#00bcd4}
+.zing_color_h .header-area.header-v2 .header-contact-info ul li:hover .iocn-holder span::before{border-color:#00bcd4}
+.zing_color_i .header-area.header-v2 .header-contact-info ul li .iocn-holder span:before{color:#009688}
+.zing_color_i .header-area.header-v2 .header-contact-info ul li:hover .iocn-holder span::before{border-color:#009688}
+.zing_color_j .header-area.header-v2 .header-contact-info ul li .iocn-holder span:before{color:#4caf50}
+.zing_color_j .header-area.header-v2 .header-contact-info ul li:hover .iocn-holder span::before{border-color:#4caf50}
+.zing_color_k .header-area.header-v2 .header-contact-info ul li .iocn-holder span:before{color:#ff9800}
+.zing_color_k .header-area.header-v2 .header-contact-info ul li:hover .iocn-holder span::before{border-color:#ff9800}
+.zing_color_l .header-area.header-v2 .header-contact-info ul li .iocn-holder span:before{color:#ff5722}
+.zing_color_l .header-area.header-v2 .header-contact-info ul li:hover .iocn-holder span::before{border-color:#ff5722}
+
+.zing_color_a .mainmenu-area{background:#f44336}
+.zing_color_a .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_a .mainmenu-area .main-menu .navigation>li>a:hover{background:#bd2116}
+.zing_color_a .mainmenu-area .main-menu .navigation li{border-right:1px solid #f4f9fe1a}
+.zing_color_a .mainmenu-area .main-menu .navigation>li:first-child{border-left:1px solid #f4f9fe1a}
+.zing_color_a .mainmenu-area .main-menu .navigation li ul.sub-menu li:hover a{color:#f44336}
+.zing_color_a .mainmenu-area .main-menu .navigation>li>ul{border-bottom:5px solid #f44336}
+.zing_color_a .mainmenu-area .top-search-box>button{background:#bd2116;border:2px solid #bd2116;color:#fff}
+
+.zing_color_b .mainmenu-area{background:#e91e63}
+.zing_color_b .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_b .mainmenu-area .main-menu .navigation>li>a:hover{background:#ce1b58}
+.zing_color_b .mainmenu-area .main-menu .navigation li{border-right:1px solid #f4f9fe1a}
+.zing_color_b .mainmenu-area .main-menu .navigation>li:first-child{border-left:1px solid #f4f9fe1a}
+.zing_color_b .mainmenu-area .main-menu .navigation li ul.sub-menu li:hover a{color:#e91e63}
+.zing_color_b .mainmenu-area .main-menu .navigation>li>ul{border-bottom:5px solid #e91e63}
+.zing_color_b .mainmenu-area .top-search-box>button{background:#ce1b58;border:2px solid #ce1b58;color:#fff}
+
+.zing_color_c .mainmenu-area{background:#9c27b0}
+.zing_color_c .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_c .mainmenu-area .main-menu .navigation>li>a:hover{background:#741c84}
+.zing_color_c .mainmenu-area .main-menu .navigation li{border-right:1px solid #f4f9fe1a}
+.zing_color_c .mainmenu-area .main-menu .navigation>li:first-child{border-left:1px solid #f4f9fe1a}
+.zing_color_c .mainmenu-area .main-menu .navigation li ul.sub-menu li:hover a{color:#9c27b0}
+.zing_color_c .mainmenu-area .main-menu .navigation>li>ul{border-bottom:5px solid #9c27b0}
+.zing_color_c .mainmenu-area .top-search-box>button{background:#741c84;border:2px solid #741c84;color:#fff}
+
+.zing_color_d .mainmenu-area{background:#673ab7}
+.zing_color_d .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_d .mainmenu-area .main-menu .navigation>li>a:hover{background:#4f2c90}
+.zing_color_d .mainmenu-area .main-menu .navigation li{border-right:1px solid #f4f9fe14}
+.zing_color_d .mainmenu-area .main-menu .navigation>li:first-child{border-left:1px solid #f4f9fe14}
+.zing_color_d .mainmenu-area .main-menu .navigation li ul.sub-menu li:hover a{color:#673ab7}
+.zing_color_d .mainmenu-area .main-menu .navigation>li>ul{border-bottom:5px solid #673ab7}
+.zing_color_d .mainmenu-area .top-search-box>button{background:#4f2c90;border:2px solid #4f2c90;color:#fff}
+
+.zing_color_e .mainmenu-area{background:#3f51b5}
+.zing_color_e .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_e .mainmenu-area .main-menu .navigation>li>a:hover{background:#303f8c}
+.zing_color_e .mainmenu-area .main-menu .navigation li{border-right:1px solid #f4f9fe14}
+.zing_color_e .mainmenu-area .main-menu .navigation>li:first-child{border-left:1px solid #f4f9fe14}
+.zing_color_e .mainmenu-area .main-menu .navigation li ul.sub-menu li:hover a{color:#3f51b5}
+.zing_color_e .mainmenu-area .main-menu .navigation>li>ul{border-bottom:5px solid #3f51b5}
+.zing_color_e .mainmenu-area .top-search-box>button{background:#303f8c;border:2px solid #303f8c;color:#fff}
+
+.zing_color_f .mainmenu-area{background:#2196f3}
+.zing_color_f .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_f .mainmenu-area .main-menu .navigation>li>a:hover{background:#1d7dca}
+.zing_color_f .mainmenu-area .main-menu .navigation li{border-right:1px solid #f4f9fe14}
+.zing_color_f .mainmenu-area .main-menu .navigation>li:first-child{border-left:1px solid #f4f9fe14}
+.zing_color_f .mainmenu-area .main-menu .navigation li ul.sub-menu li:hover a{color:#2196f3}
+.zing_color_f .mainmenu-area .main-menu .navigation>li>ul{border-bottom:5px solid #2196f3}
+.zing_color_f .mainmenu-area .top-search-box>button{background:#1d7dca;border:2px solid #1d7dca;color:#fff}
+
+.zing_color_g .mainmenu-area{background:#03a9f4}
+.zing_color_g .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_g .mainmenu-area .main-menu .navigation>li>a:hover{background:#0396d8}
+.zing_color_g .mainmenu-area .main-menu .navigation li{border-right:1px solid #f4f9fe14}
+.zing_color_g .mainmenu-area .main-menu .navigation>li:first-child{border-left:1px solid #f4f9fe14}
+.zing_color_g .mainmenu-area .main-menu .navigation li ul.sub-menu li:hover a{color:#03a9f4}
+.zing_color_g .mainmenu-area .main-menu .navigation>li>ul{border-bottom:5px solid #03a9f4}
+.zing_color_g .mainmenu-area .top-search-box>button{background:#0396d8;border:2px solid #0396d8;color:#fff}
+
+.zing_color_h .mainmenu-area{background:#00bcd4}
+.zing_color_h .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_h .mainmenu-area .main-menu .navigation>li>a:hover{background:#03a6bb}
+.zing_color_h .mainmenu-area .main-menu .navigation li{border-right:1px solid #f4f9fe14}
+.zing_color_h .mainmenu-area .main-menu .navigation>li:first-child{border-left:1px solid #f4f9fe14}
+.zing_color_h .mainmenu-area .main-menu .navigation li ul.sub-menu li:hover a{color:#00bcd4}
+.zing_color_h .mainmenu-area .main-menu .navigation>li>ul{border-bottom:5px solid #00bcd4}
+.zing_color_h .mainmenu-area .top-search-box>button{background:#03a6bb;border:2px solid #03a6bb;color:#fff}
+
+.zing_color_i .mainmenu-area{background:#009688}
+.zing_color_i .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_i .mainmenu-area .main-menu .navigation>li>a:hover{background:#017b6f}
+.zing_color_i .mainmenu-area .main-menu .navigation li{border-right:1px solid #f4f9fe14}
+.zing_color_i .mainmenu-area .main-menu .navigation>li:first-child{border-left:1px solid #f4f9fe14}
+.zing_color_i .mainmenu-area .main-menu .navigation li ul.sub-menu li:hover a{color:#009688}
+.zing_color_i .mainmenu-area .main-menu .navigation>li>ul{border-bottom:5px solid #009688}
+.zing_color_i .mainmenu-area .top-search-box>button{background:#017b6f;border:2px solid #017b6f;color:#fff}
+
+.zing_color_j .mainmenu-area{background:#4caf50}
+.zing_color_j .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_j .mainmenu-area .main-menu .navigation>li>a:hover{background:#3e8e42}
+.zing_color_j .mainmenu-area .main-menu .navigation li{border-right:1px solid #f4f9fe14}
+.zing_color_j .mainmenu-area .main-menu .navigation>li:first-child{border-left:1px solid #f4f9fe14}
+.zing_color_j .mainmenu-area .main-menu .navigation li ul.sub-menu li:hover a{color:#4caf50}
+.zing_color_j .mainmenu-area .main-menu .navigation>li>ul{border-bottom:5px solid #4caf50}
+.zing_color_j .mainmenu-area .top-search-box>button{background:#3e8e42;border:2px solid #3e8e42;color:#fff}
+
+.zing_color_k .mainmenu-area{background:#ff9800}
+.zing_color_k .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_k .mainmenu-area .main-menu .navigation>li>a:hover{background:#da8404}
+.zing_color_k .mainmenu-area .main-menu .navigation li{border-right:1px solid #f4f9fe14}
+.zing_color_k .mainmenu-area .main-menu .navigation>li:first-child{border-left:1px solid #f4f9fe14}
+.zing_color_k .mainmenu-area .main-menu .navigation li ul.sub-menu li:hover a{color:#ff9800}
+.zing_color_k .mainmenu-area .main-menu .navigation>li>ul{border-bottom:5px solid #ff9800}
+.zing_color_k .mainmenu-area .top-search-box>button{background:#da8404;border:2px solid #da8404;color:#fff}
+
+.zing_color_l .mainmenu-area{background:#ff5722}
+.zing_color_l .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_l .mainmenu-area .main-menu .navigation>li>a:hover{background:#e24d1d}
+.zing_color_l .mainmenu-area .main-menu .navigation li{border-right:1px solid #f4f9fe14}
+.zing_color_l .mainmenu-area .main-menu .navigation>li:first-child{border-left:1px solid #f4f9fe14}
+.zing_color_l .mainmenu-area .main-menu .navigation li ul.sub-menu li:hover a{color:#ff5722}
+.zing_color_l .mainmenu-area .main-menu .navigation>li>ul{border-bottom:5px solid #ff5722}
+.zing_color_l .mainmenu-area .top-search-box>button{background:#e24d1d;border:2px solid #e24d1d;color:#fff}
+
+.zing_color_a .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_a .mainmenu-area .main-menu .navigation>li:hover>a,
+.zing_color_j .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_j .mainmenu-area .main-menu .navigation>li:hover>a,
+.zing_color_k .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_k .mainmenu-area .main-menu .navigation>li:hover>a,
+.zing_color_l .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_l .mainmenu-area .main-menu .navigation>li:hover>a,
+.zing_color_b .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_b .mainmenu-area .main-menu .navigation>li:hover>a,
+.zing_color_c .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_c .mainmenu-area .main-menu .navigation>li:hover>a,
+.zing_color_d .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_d .mainmenu-area .main-menu .navigation>li:hover>a,
+.zing_color_e .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_e .mainmenu-area .main-menu .navigation>li:hover>a,
+.zing_color_f .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_f .mainmenu-area .main-menu .navigation>li:hover>a,
+.zing_color_g .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_g .mainmenu-area .main-menu .navigation>li:hover>a,
+.zing_color_h .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_h .mainmenu-area .main-menu .navigation>li:hover>a,
+.zing_color_i .mainmenu-area .main-menu .navigation>li.current-menu-item>a,
+.zing_color_i .mainmenu-area .main-menu .navigation>li:hover>a{color:#fff}
+
+/*模块-10配色*/
+.categories-area.feature2_color_a:before{background:#f44336}
+.categories-area.feature2_color_a .single-item .icon-holder{background:#fffefe}
+.categories-area.feature2_color_a .single-item .icon-holder:before{color:#f44336}
+.categories-area.feature2_color_a .single-item .icon-holder span::before{color:#f44336}
+.categories-area.feature2_color_a .single-item:before{background:#333}
+.categories-area.feature2_color_a .single-item:hover .icon-holder:before{display:none}
+
+.categories-area.feature2_color_b:before{background:#e91e63}
+.categories-area.feature2_color_b .single-item .icon-holder{background:#fffefe}
+.categories-area.feature2_color_b .single-item .icon-holder:before{color:#e91e63}
+.categories-area.feature2_color_b .single-item .icon-holder span::before{color:#e91e63}
+.categories-area.feature2_color_b .single-item:before{background:#333}
+.categories-area.feature2_color_b .single-item:hover .icon-holder:before{display:none}
+
+.categories-area.feature2_color_c:before{background:#9c27b0}
+.categories-area.feature2_color_c .single-item .icon-holder{background:#fffefe}
+.categories-area.feature2_color_c .single-item .icon-holder:before{color:#9c27b0}
+.categories-area.feature2_color_c .single-item .icon-holder span::before{color:#9c27b0}
+.categories-area.feature2_color_c .single-item:before{background:#333}
+.categories-area.feature2_color_c .single-item:hover .icon-holder:before{display:none}
+
+.categories-area.feature2_color_d:before{background:#663ab7}
+.categories-area.feature2_color_d .single-item .icon-holder{background:#fffefe}
+.categories-area.feature2_color_d .single-item .icon-holder:before{color:#663ab7}
+.categories-area.feature2_color_d .single-item .icon-holder span::before{color:#663ab7}
+.categories-area.feature2_color_d .single-item:before{background:#333}
+.categories-area.feature2_color_d .single-item:hover .icon-holder:before{display:none}
+
+.categories-area.feature2_color_e:before{background:#3e51b5}
+.categories-area.feature2_color_e .single-item .icon-holder{background:#fffefe}
+.categories-area.feature2_color_e .single-item .icon-holder:before{color:#3e51b5}
+.categories-area.feature2_color_e .single-item .icon-holder span::before{color:#3e51b5}
+.categories-area.feature2_color_e .single-item:before{background:#333}
+.categories-area.feature2_color_e .single-item:hover .icon-holder:before{display:none}
+
+.categories-area.feature2_color_f:before{background:#2296f3}
+.categories-area.feature2_color_f .single-item .icon-holder{background:#fffefe}
+.categories-area.feature2_color_f .single-item .icon-holder:before{color:#2296f3}
+.categories-area.feature2_color_f .single-item .icon-holder span::before{color:#2296f3}
+.categories-area.feature2_color_f .single-item:before{background:#333}
+.categories-area.feature2_color_f .single-item:hover .icon-holder:before{display:none}
+
+.categories-area.feature2_color_g:before{background:#02a9f4}
+.categories-area.feature2_color_g .single-item .icon-holder{background:#fffefe}
+.categories-area.feature2_color_g .single-item .icon-holder:before{color:#02a9f4}
+.categories-area.feature2_color_g .single-item .icon-holder span::before{color:#02a9f4}
+.categories-area.feature2_color_g .single-item:before{background:#333}
+.categories-area.feature2_color_g .single-item:hover .icon-holder:before{display:none}
+
+.categories-area.feature2_color_h:before{background:#00bcd4}
+.categories-area.feature2_color_h .single-item .icon-holder{background:#fffefe}
+.categories-area.feature2_color_h .single-item .icon-holder:before{color:#00bcd4}
+.categories-area.feature2_color_h .single-item .icon-holder span::before{color:#00bcd4}
+.categories-area.feature2_color_h .single-item:before{background:#333}
+.categories-area.feature2_color_h .single-item:hover .icon-holder:before{display:none}
+
+.categories-area.feature2_color_i:before{background:#009687}
+.categories-area.feature2_color_i .single-item .icon-holder{background:#fffefe}
+.categories-area.feature2_color_i .single-item .icon-holder:before{color:#009687}
+.categories-area.feature2_color_i .single-item .icon-holder span::before{color:#009687}
+.categories-area.feature2_color_i .single-item:before{background:#333}
+.categories-area.feature2_color_i .single-item:hover .icon-holder:before{display:none}
+
+.categories-area.feature2_color_j:before{background:#4baf50}
+.categories-area.feature2_color_j .single-item .icon-holder{background:#fffefe}
+.categories-area.feature2_color_j .single-item .icon-holder:before{color:#4baf50}
+.categories-area.feature2_color_j .single-item .icon-holder span::before{color:#4baf50}
+.categories-area.feature2_color_j .single-item:before{background:#333}
+.categories-area.feature2_color_j .single-item:hover .icon-holder:before{display:none}
+
+.categories-area.feature2_color_k:before{background:#ff9800}
+.categories-area.feature2_color_k .single-item .icon-holder{background:#fffefe}
+.categories-area.feature2_color_k .single-item .icon-holder:before{color:#ff9800}
+.categories-area.feature2_color_k .single-item .icon-holder span::before{color:#ff9800}
+.categories-area.feature2_color_k .single-item:before{background:#333}
+.categories-area.feature2_color_k .single-item:hover .icon-holder:before{display:none}
+
+.categories-area.feature2_color_l:before{background:#ff5721}
+.categories-area.feature2_color_l .single-item .icon-holder{background:#fffefe}
+.categories-area.feature2_color_l .single-item .icon-holder:before{color:#ff5721}
+.categories-area.feature2_color_l .single-item .icon-holder span::before{color:#ff5721}
+.categories-area.feature2_color_l .single-item:before{background:#333}
+.categories-area.feature2_color_l .single-item:hover .icon-holder:before{display:none}
+
+/*模块-7配色*/
+.feature_color_a .icon-rounded-sm{background:#f44336}
+.feature_color_b .icon-rounded-sm{background:#e91e63}
+.feature_color_c .icon-rounded-sm{background:#9c27b0}
+.feature_color_d .icon-rounded-sm{background:#663ab7}
+.feature_color_e .icon-rounded-sm{background:#3e51b5}
+.feature_color_f .icon-rounded-sm{background:#2296f3}
+.feature_color_g .icon-rounded-sm{background:#02a9f4}
+.feature_color_h .icon-rounded-sm{background:#00bcd4}
+.feature_color_i .icon-rounded-sm{background:#009687}
+.feature_color_j .icon-rounded-sm{background:#4baf50}
+.feature_color_k .icon-rounded-sm{background:#ff9800}
+.feature_color_l .icon-rounded-sm{background:#ff5721}
+
+/*主色调*/
+.zing_color_a #responsive-309391.owl-theme .owl-controls .owl-page.active span,
+.zing_color_a #responsive-309391.owl-theme .owl-controls.clickable .owl-page:hover span,
+.zing_color_a .consultation li a,
+.zing_color_a .consultation #thetop a,
+.zing_color_a .consultation li span,
+.zing_color_a .sidebar .widget__title-text,
+.zing_color_a .widget_nav_menu ul li.current-menu-item a,
+.zing_color_a .sidebar .widget_nav_menu ul li a:hover,
+.zing_color_a .sidebar .widget_nav_menu ul li:hover a,
+.zing_color_a .sidebar .widget_nav_menu ul li:hover ul li:hover a,
+.zing_color_a .sidebar .widget_nav_menu ul li.current-menu-parent a:link,
+.zing_color_a .sidebar .widget_nav_menu ul li.current-menu-parent a:visited,
+.zing_color_a .sidebar .widget_nav_menu ul li.current-menu-item a{background:#f44336}
+.zing_color_a .related>h2 span{border-bottom:2px solid #f44336;color:#f44336}
+.zing_color_a a:hover,
+.zing_color_a .header-v4 .main-nav .sf-menu li a:hover,
+.zing_color_a .nav li.menu-item-has-children>a:hover::after{color:#f44336}
+.zing_color_a .consultation li{border-top:1px solid #da3d32}
+.zing_color_a .consultation li a:hover,
+.zing_color_a .consultation #thetop a:hover{background:#da3d32}
+
+
+.zing_color_b #responsive-309391.owl-theme .owl-controls .owl-page.active span,
+.zing_color_b #responsive-309391.owl-theme .owl-controls.clickable .owl-page:hover span,
+.zing_color_b .consultation li a,
+.zing_color_b .consultation #thetop a,
+.zing_color_b .consultation li span,
+.zing_color_b .sidebar .widget__title-text,
+.zing_color_b .widget_nav_menu ul li.current-menu-item a,
+.zing_color_b .sidebar .widget_nav_menu ul li a:hover,
+.zing_color_b .sidebar .widget_nav_menu ul li:hover a,
+.zing_color_b .sidebar .widget_nav_menu ul li:hover ul li:hover a,
+.zing_color_b .sidebar .widget_nav_menu ul li.current-menu-parent a:link,
+.zing_color_b .sidebar .widget_nav_menu ul li.current-menu-parent a:visited,
+.zing_color_b .sidebar .widget_nav_menu ul li.current-menu-item a{background:#e91e63}
+.zing_color_b .related>h2 span{border-bottom:2px solid #e91e63;color:#e91e63}
+.zing_color_b a:hover,
+.zing_color_b .header-v4 .main-nav .sf-menu li a:hover,
+.zing_color_b .nav li.menu-item-has-children>a:hover::after{color:#e91e63}
+.zing_color_b .consultation li{border-top:1px solid #ce1b58}
+.zing_color_b .consultation li a:hover,
+.zing_color_b .consultation #thetop a:hover{background:#ce1b58}
+
+
+.zing_color_c #responsive-309391.owl-theme .owl-controls .owl-page.active span,
+.zing_color_c #responsive-309391.owl-theme .owl-controls.clickable .owl-page:hover span,
+.zing_color_c .consultation li a,
+.zing_color_c .consultation #thetop a,
+.zing_color_c .consultation li span,
+.zing_color_c .sidebar .widget__title-text,
+.zing_color_c .widget_nav_menu ul li.current-menu-item a,
+.zing_color_c .sidebar .widget_nav_menu ul li a:hover,
+.zing_color_c .sidebar .widget_nav_menu ul li:hover a,
+.zing_color_c .sidebar .widget_nav_menu ul li:hover ul li:hover a,
+.zing_color_c .sidebar .widget_nav_menu ul li.current-menu-parent a:link,
+.zing_color_c .sidebar .widget_nav_menu ul li.current-menu-parent a:visited,
+.zing_color_c .sidebar .widget_nav_menu ul li.current-menu-item a{background:#9c27b0}
+.zing_color_c .related>h2 span{border-bottom:2px solid #9c27b0;color:#9c27b0}
+.zing_color_c a:hover,
+.zing_color_c .header-v4 .main-nav .sf-menu li a:hover,
+.zing_color_c .nav li.menu-item-has-children>a:hover::after{color:#9c27b0}
+.zing_color_c .consultation li{border-top:1px solid #741c84}
+.zing_color_c .consultation li a:hover,
+.zing_color_c .consultation #thetop a:hover{background:#741c84}
+
+
+.zing_color_d #responsive-309391.owl-theme .owl-controls .owl-page.active span,
+.zing_color_d #responsive-309391.owl-theme .owl-controls.clickable .owl-page:hover span,
+.zing_color_d .consultation li a,
+.zing_color_d .consultation #thetop a,
+.zing_color_d .consultation li span,
+.zing_color_d .sidebar .widget__title-text,
+.zing_color_d .widget_nav_menu ul li.current-menu-item a,
+.zing_color_d .sidebar .widget_nav_menu ul li a:hover,
+.zing_color_d .sidebar .widget_nav_menu ul li:hover a,
+.zing_color_d .sidebar .widget_nav_menu ul li:hover ul li:hover a,
+.zing_color_d .sidebar .widget_nav_menu ul li.current-menu-parent a:link,
+.zing_color_d .sidebar .widget_nav_menu ul li.current-menu-parent a:visited,
+.zing_color_d .sidebar .widget_nav_menu ul li.current-menu-item a{background:#663ab7}
+.zing_color_d .related>h2 span{border-bottom:2px solid #663ab7;color:#663ab7}
+.zing_color_d a:hover,
+.zing_color_d .header-v4 .main-nav .sf-menu li a:hover,
+.zing_color_d .nav li.menu-item-has-children>a:hover::after{color:#663ab7}
+.zing_color_d .consultation li{border-top:1px solid #4f2c90}
+.zing_color_d .consultation li a:hover,
+.zing_color_d .consultation #thetop a:hover{background:#4f2c90}
+
+
+.zing_color_e #responsive-309391.owl-theme .owl-controls .owl-page.active span,
+.zing_color_e #responsive-309391.owl-theme .owl-controls.clickable .owl-page:hover span,
+.zing_color_e .consultation li a,
+.zing_color_e .consultation #thetop a,
+.zing_color_e .consultation li span,
+.zing_color_e .sidebar .widget__title-text,
+.zing_color_e .widget_nav_menu ul li.current-menu-item a,
+.zing_color_e .sidebar .widget_nav_menu ul li a:hover,
+.zing_color_e .sidebar .widget_nav_menu ul li:hover a,
+.zing_color_e .sidebar .widget_nav_menu ul li:hover ul li:hover a,
+.zing_color_e .sidebar .widget_nav_menu ul li.current-menu-parent a:link,
+.zing_color_e .sidebar .widget_nav_menu ul li.current-menu-parent a:visited,
+.zing_color_e .sidebar .widget_nav_menu ul li.current-menu-item a{background:#3e51b5}
+.zing_color_e .related>h2 span{border-bottom:2px solid #3e51b5;color:#3e51b5}
+.zing_color_e a:hover,
+.zing_color_e .header-v4 .main-nav .sf-menu li a:hover,
+.zing_color_e .nav li.menu-item-has-children>a:hover::after{color:#3e51b5}
+.zing_color_e .consultation li{border-top:1px solid #303f8c}
+.zing_color_e .consultation li a:hover,
+.zing_color_e .consultation #thetop a:hover{background:#303f8c}
+
+
+.zing_color_f #responsive-309391.owl-theme .owl-controls .owl-page.active span,
+.zing_color_f #responsive-309391.owl-theme .owl-controls.clickable .owl-page:hover span,
+.zing_color_f .consultation li a,
+.zing_color_f .consultation #thetop a,
+.zing_color_f .consultation li span,
+.zing_color_f .sidebar .widget__title-text,
+.zing_color_f .widget_nav_menu ul li.current-menu-item a,
+.zing_color_f .sidebar .widget_nav_menu ul li a:hover,
+.zing_color_f .sidebar .widget_nav_menu ul li:hover a,
+.zing_color_f .sidebar .widget_nav_menu ul li:hover ul li:hover a,
+.zing_color_f .sidebar .widget_nav_menu ul li.current-menu-parent a:link,
+.zing_color_f .sidebar .widget_nav_menu ul li.current-menu-parent a:visited,
+.zing_color_f .sidebar .widget_nav_menu ul li.current-menu-item a{background:#2296f3}
+.zing_color_f .related>h2 span{border-bottom:2px solid #2296f3;color:#2296f3}
+.zing_color_f a:hover,
+.zing_color_f .header-v4 .main-nav .sf-menu li a:hover,
+.zing_color_f .nav li.menu-item-has-children>a:hover::after{color:#2296f3}
+.zing_color_f .consultation li{border-top:1px solid #1d7dca}
+.zing_color_f .consultation li a:hover,
+.zing_color_f .consultation #thetop a:hover{background:#1d7dca}
+
+
+.zing_color_g #responsive-309391.owl-theme .owl-controls .owl-page.active span,
+.zing_color_g #responsive-309391.owl-theme .owl-controls.clickable .owl-page:hover span,
+.zing_color_g .consultation li a,
+.zing_color_g .consultation #thetop a,
+.zing_color_g .consultation li span,
+.zing_color_g .sidebar .widget__title-text,
+.zing_color_g .widget_nav_menu ul li.current-menu-item a,
+.zing_color_g .sidebar .widget_nav_menu ul li a:hover,
+.zing_color_g .sidebar .widget_nav_menu ul li:hover a,
+.zing_color_g .sidebar .widget_nav_menu ul li:hover ul li:hover a,
+.zing_color_g .sidebar .widget_nav_menu ul li.current-menu-parent a:link,
+.zing_color_g .sidebar .widget_nav_menu ul li.current-menu-parent a:visited,
+.zing_color_g .sidebar .widget_nav_menu ul li.current-menu-item a{background:#02a9f4}
+.zing_color_g .related>h2 span{border-bottom:2px solid #02a9f4;color:#02a9f4}
+.zing_color_g a:hover,
+.zing_color_g .header-v4 .main-nav .sf-menu li a:hover,
+.zing_color_g .nav li.menu-item-has-children>a:hover::after{color:#02a9f4}
+.zing_color_g .consultation li{border-top:1px solid #0396d8}
+.zing_color_g .consultation li a:hover,
+.zing_color_g .consultation #thetop a:hover{background:#0396d8}
+
+
+.zing_color_h #responsive-309391.owl-theme .owl-controls .owl-page.active span,
+.zing_color_h #responsive-309391.owl-theme .owl-controls.clickable .owl-page:hover span,
+.zing_color_h .consultation li a,
+.zing_color_h .consultation #thetop a,
+.zing_color_h .consultation li span,
+.zing_color_h .sidebar .widget__title-text,
+.zing_color_h .widget_nav_menu ul li.current-menu-item a,
+.zing_color_h .sidebar .widget_nav_menu ul li a:hover,
+.zing_color_h .sidebar .widget_nav_menu ul li:hover a,
+.zing_color_h .sidebar .widget_nav_menu ul li:hover ul li:hover a,
+.zing_color_h .sidebar .widget_nav_menu ul li.current-menu-parent a:link,
+.zing_color_h .sidebar .widget_nav_menu ul li.current-menu-parent a:visited,
+.zing_color_h .sidebar .widget_nav_menu ul li.current-menu-item a{background:#00bcd4}
+.zing_color_h .related>h2 span{border-bottom:2px solid #00bcd4;color:#00bcd4}
+.zing_color_h a:hover,
+.zing_color_h .header-v4 .main-nav .sf-menu li a:hover,
+.zing_color_h .nav li.menu-item-has-children>a:hover::after{color:#00bcd4}
+.zing_color_h .consultation li{border-top:1px solid #03a6bb}
+.zing_color_h .consultation li a:hover,
+.zing_color_h .consultation #thetop a:hover{background:#03a6bb}
+
+
+.zing_color_i #responsive-309391.owl-theme .owl-controls .owl-page.active span,
+.zing_color_i #responsive-309391.owl-theme .owl-controls.clickable .owl-page:hover span,
+.zing_color_i .consultation li a,
+.zing_color_i .consultation #thetop a,
+.zing_color_i .consultation li span,
+.zing_color_i .sidebar .widget__title-text,
+.zing_color_i .widget_nav_menu ul li.current-menu-item a,
+.zing_color_i .sidebar .widget_nav_menu ul li a:hover,
+.zing_color_i .sidebar .widget_nav_menu ul li:hover a,
+.zing_color_i .sidebar .widget_nav_menu ul li:hover ul li:hover a,
+.zing_color_i .sidebar .widget_nav_menu ul li.current-menu-parent a:link,
+.zing_color_i .sidebar .widget_nav_menu ul li.current-menu-parent a:visited,
+.zing_color_i .sidebar .widget_nav_menu ul li.current-menu-item a{background:#009687}
+.zing_color_i .related>h2 span{border-bottom:2px solid #009687;color:#009687}
+.zing_color_i a:hover,
+.zing_color_i .header-v4 .main-nav .sf-menu li a:hover,
+.zing_color_i .nav li.menu-item-has-children>a:hover::after{color:#009687}
+.zing_color_i .consultation li{border-top:1px solid #017b6f}
+.zing_color_i .consultation li a:hover,
+.zing_color_i .consultation #thetop a:hover{background:#017b6f}
+
+
+.zing_color_j #responsive-309391.owl-theme .owl-controls .owl-page.active span,
+.zing_color_j #responsive-309391.owl-theme .owl-controls.clickable .owl-page:hover span,
+.zing_color_j .consultation li a,
+.zing_color_j .consultation #thetop a,
+.zing_color_j .consultation li span,
+.zing_color_j .sidebar .widget__title-text,
+.zing_color_j .widget_nav_menu ul li.current-menu-item a,
+.zing_color_j .sidebar .widget_nav_menu ul li a:hover,
+.zing_color_j .sidebar .widget_nav_menu ul li:hover a,
+.zing_color_j .sidebar .widget_nav_menu ul li:hover ul li:hover a,
+.zing_color_j .sidebar .widget_nav_menu ul li.current-menu-parent a:link,
+.zing_color_j .sidebar .widget_nav_menu ul li.current-menu-parent a:visited,
+.zing_color_j .sidebar .widget_nav_menu ul li.current-menu-item a{background:#4baf50}
+.zing_color_j .related>h2 span{border-bottom:2px solid #4baf50;color:#4baf50}
+.zing_color_j a:hover,
+.zing_color_j .header-v4 .main-nav .sf-menu li a:hover,
+.zing_color_j .nav li.menu-item-has-children>a:hover::after{color:#4baf50}
+.zing_color_j .consultation li{border-top:1px solid #3e8e42}
+.zing_color_j .consultation li a:hover,
+.zing_color_j .consultation #thetop a:hover{background:#3e8e42}
+
+
+.zing_color_k #responsive-309391.owl-theme .owl-controls .owl-page.active span,
+.zing_color_k #responsive-309391.owl-theme .owl-controls.clickable .owl-page:hover span,
+.zing_color_k .consultation li a,
+.zing_color_k .consultation #thetop a,
+.zing_color_k .consultation li span,
+.zing_color_k .sidebar .widget__title-text,
+.zing_color_k .widget_nav_menu ul li.current-menu-item a,
+.zing_color_k .sidebar .widget_nav_menu ul li a:hover,
+.zing_color_k .sidebar .widget_nav_menu ul li:hover a,
+.zing_color_k .sidebar .widget_nav_menu ul li:hover ul li:hover a,
+.zing_color_k .sidebar .widget_nav_menu ul li.current-menu-parent a:link,
+.zing_color_k .sidebar .widget_nav_menu ul li.current-menu-parent a:visited,
+.zing_color_k .sidebar .widget_nav_menu ul li.current-menu-item a{background:#ff9800}
+.zing_color_k .related>h2 span{border-bottom:2px solid #ff9800;color:#ff9800}
+.zing_color_k a:hover,
+.zing_color_k .header-v4 .main-nav .sf-menu li a:hover,
+.zing_color_k .nav li.menu-item-has-children>a:hover::after{color:#ff9800}
+.zing_color_k .consultation li{border-top:1px solid #da8404}
+.zing_color_k .consultation li a:hover,
+.zing_color_k .consultation #thetop a:hover{background:#da8404}
+
+
+.zing_color_l #responsive-309391.owl-theme .owl-controls .owl-page.active span,
+.zing_color_l #responsive-309391.owl-theme .owl-controls.clickable .owl-page:hover span,
+.zing_color_l .consultation li a,
+.zing_color_l .consultation #thetop a,
+.zing_color_l .consultation li span,
+.zing_color_l .sidebar .widget__title-text,
+.zing_color_l .widget_nav_menu ul li.current-menu-item a,
+.zing_color_l .sidebar .widget_nav_menu ul li a:hover,
+.zing_color_l .sidebar .widget_nav_menu ul li:hover a,
+.zing_color_l .sidebar .widget_nav_menu ul li:hover ul li:hover a,
+.zing_color_l .sidebar .widget_nav_menu ul li.current-menu-parent a:link,
+.zing_color_l .sidebar .widget_nav_menu ul li.current-menu-parent a:visited,
+.zing_color_l .sidebar .widget_nav_menu ul li.current-menu-item a{background:#ff5721}
+.zing_color_l .related>h2 span{border-bottom:2px solid #ff5721;color:#ff5721}
+.zing_color_l a:hover,
+.zing_color_l .header-v4 .main-nav .sf-menu li a:hover,
+.zing_color_l .nav li.menu-item-has-children>a:hover::after{color:#ff5721}
+.zing_color_l .consultation li{border-top:1px solid #e24d1d}
+.zing_color_l .consultation li a:hover,
+.zing_color_l .consultation #thetop a:hover{background:#e24d1d}
+
+
+/*页脚配色*/
+.footer_color_a .footer,
+.footer_color_a .bottom{background-color:#f44336;color:#e5e5e5}
+.footer_color_a .bottom a{color: #e5e5e5 !important;}
+.footer_color_a .bottom .page-width{border-top:1px solid #f1564b}
+
+.footer_color_b .footer,
+.footer_color_b .bottom{background-color:#e91e63;color:#e5e5e5}
+.footer_color_b .bottom a{color: #e5e5e5 !important;}
+.footer_color_b .bottom .page-width{border-top:1px solid #e83c77}
+
+.footer_color_c .footer,
+.footer_color_c .bottom{background-color:#9c27b0;color:#e5e5e5}
+.footer_color_c .bottom a{color: #e5e5e5 !important;}
+.footer_color_c .bottom .page-width{border-top:1px solid #a638b9}
+
+.footer_color_d .footer,
+.footer_color_d .bottom{background-color:#663ab7;color:#e5e5e5}
+.footer_color_d .bottom a{color: #e5e5e5 !important;}
+.footer_color_d .bottom .page-width{border-top:1px solid #7145c1}
+
+.footer_color_e .footer,
+.footer_color_e .bottom{background-color:#3e51b5;color:#e5e5e5}
+.footer_color_e .bottom a{color: #e5e5e5 !important;}
+.footer_color_e .bottom .page-width{border-top:1px solid #4759bb}
+
+.footer_color_f .footer,
+.footer_color_f .bottom{background-color:#2296f3;color:#e5e5e5}
+.footer_color_f .bottom a{color: #e5e5e5 !important;}
+.footer_color_f .bottom .page-width{border-top:1px solid #31a0f9}
+
+.footer_color_g .footer,
+.footer_color_g .bottom{background-color:#02a9f4;color:#e5e5e5}
+.footer_color_g .bottom a{color: #e5e5e5 !important;}
+.footer_color_g .bottom .page-width{border-top:1px solid #19b1f5}
+
+.footer_color_h .footer,
+.footer_color_h .bottom{background-color:#00bcd4;color:#e5e5e5}
+.footer_color_h .bottom a{color: #e5e5e5 !important;}
+.footer_color_h .bottom .page-width{border-top:1px solid #03c3dc}
+
+.footer_color_i .footer,
+.footer_color_i .bottom{background-color:#009687;color:#e5e5e5}
+.footer_color_i .bottom a{color: #e5e5e5 !important;}
+.footer_color_i .bottom .page-width{border-top:1px solid #049c8d}
+
+.footer_color_j .footer,
+.footer_color_j .bottom{background-color:#4baf50;color:#e5e5e5}
+.footer_color_j .bottom a{color: #e5e5e5 !important;}
+.footer_color_j .bottom .page-width{border-top:1px solid #55b759}
+
+.footer_color_k .footer,
+.footer_color_k .bottom{background-color:#ff9800;color:#fff}
+.footer_color_k .bottom a{color: #fff !important;}
+.footer_color_k .bottom .page-width{border-top:1px solid #ffa623}
+
+.footer_color_l .footer,
+.footer_color_l .bottom{background-color:#ff5721;color:#e5e5e5}
+.footer_color_l .bottom a{color: #e5e5e5 !important;}
+.footer_color_l .bottom .page-width{border-top:1px solid #ff6939}
+
+.footer_color_m .footer,
+.footer_color_m .bottom{background-color:#152545}
+.footer_color_m .bottom .page-width{border-top:1px solid #1e3158}
+
+
+.footer_color_a .footer-area {background:#f44336}
+.footer_color_a .bottom,
+.footer_color_a .bottom a,
+.footer_color_a .single-footer-widget .services-list li a,
+.footer_color_a .single-footer-widget .services-list li:before,
+.footer_color_a .single-footer-widget .repairplus-info,
+.footer_color_a .single-footer-widget .footer-contact-info li .text-holder h5,
+.footer_color_a .single-footer-widget .footer-contact-info li .icon-holder span:before{color:#fff}
+.footer_color_a .footer-area .footer-widget::before{
+    background:#E53935;-moz-box-shadow:1px 5px 8px #D32F2F;-webkit-box-shadow:1px 5px 8px #D32F2F;box-shadow:1px 5px 8px #D32F2F
+}
+
+.footer_color_b .footer-area {background:#e91e63}
+.footer_color_b .bottom,
+.footer_color_b .bottom a,
+.footer_color_b .single-footer-widget .services-list li a,
+.footer_color_b .single-footer-widget .services-list li:before,
+.footer_color_b .single-footer-widget .repairplus-info,
+.footer_color_b .single-footer-widget .footer-contact-info li .text-holder h5,
+.footer_color_b .single-footer-widget .footer-contact-info li .icon-holder span:before{color:#fff}
+.footer_color_b .footer-area .footer-widget::before{
+    background:#D81B60;-moz-box-shadow:1px 5px 8px #C2185B;-webkit-box-shadow:1px 5px 8px #C2185B;box-shadow:1px 5px 8px #C2185B
+}
+
+.footer_color_c .footer-area {background:#9c27b0}
+.footer_color_c .bottom,
+.footer_color_c .bottom a,
+.footer_color_c .single-footer-widget .services-list li a,
+.footer_color_c .single-footer-widget .services-list li:before,
+.footer_color_c .single-footer-widget .repairplus-info,
+.footer_color_c .single-footer-widget .footer-contact-info li .text-holder h5,
+.footer_color_c .single-footer-widget .footer-contact-info li .icon-holder span:before{color:#fff}
+.footer_color_c .footer-area .footer-widget::before{
+    background:#8E24AA;-moz-box-shadow:1px 5px 8px #7B1FA2;-webkit-box-shadow:1px 5px 8px #7B1FA2;box-shadow:1px 5px 8px #7B1FA2
+}
+
+.footer_color_d .footer-area {background:#663ab7}
+.footer_color_d .bottom,
+.footer_color_d .bottom a,
+.footer_color_d .single-footer-widget .services-list li a,
+.footer_color_d .single-footer-widget .services-list li:before,
+.footer_color_d .single-footer-widget .repairplus-info,
+.footer_color_d .single-footer-widget .footer-contact-info li .text-holder h5,
+.footer_color_d .single-footer-widget .footer-contact-info li .icon-holder span:before{color:#fff}
+.footer_color_d .footer-area .footer-widget::before{
+    background:#5E35B1;-moz-box-shadow:1px 5px 8px #512DA8;-webkit-box-shadow:1px 5px 8px #512DA8;box-shadow:1px 5px 8px #512DA8
+}
+
+.footer_color_e .footer-area {background:#3e51b5}
+.footer_color_e .bottom,
+.footer_color_e .bottom a,
+.footer_color_e .single-footer-widget .services-list li a,
+.footer_color_e .single-footer-widget .services-list li:before,
+.footer_color_e .single-footer-widget .repairplus-info,
+.footer_color_e .single-footer-widget .footer-contact-info li .text-holder h5,
+.footer_color_e .single-footer-widget .footer-contact-info li .icon-holder span:before{color:#fff}
+.footer_color_e .footer-area .footer-widget::before{
+    background:#3949AB;-moz-box-shadow:1px 5px 8px #303F9F;-webkit-box-shadow:1px 5px 8px #303F9F;box-shadow:1px 5px 8px #303F9F
+}
+
+.footer_color_f .footer-area {background:#2296f3}
+.footer_color_f .bottom,
+.footer_color_f .bottom a,
+.footer_color_f .single-footer-widget .services-list li a,
+.footer_color_f .single-footer-widget .services-list li:before,
+.footer_color_f .single-footer-widget .repairplus-info,
+.footer_color_f .single-footer-widget .footer-contact-info li .text-holder h5,
+.footer_color_f .single-footer-widget .footer-contact-info li .icon-holder span:before{color:#fff}
+.footer_color_f .footer-area .footer-widget::before{
+    background:#1E88E5;-moz-box-shadow:1px 5px 8px #1976D2;-webkit-box-shadow:1px 5px 8px #1976D2;box-shadow:1px 5px 8px #1976D2
+}
+
+.footer_color_g .footer-area {background:#02a9f4}
+.footer_color_g .bottom,
+.footer_color_g .bottom a,
+.footer_color_g .single-footer-widget .services-list li a,
+.footer_color_g .single-footer-widget .services-list li:before,
+.footer_color_g .single-footer-widget .repairplus-info,
+.footer_color_g .single-footer-widget .footer-contact-info li .text-holder h5,
+.footer_color_g .single-footer-widget .footer-contact-info li .icon-holder span:before{color:#fff}
+.footer_color_g .footer-area .footer-widget::before{
+    background:#039BE5;-moz-box-shadow:1px 5px 8px #0288D1;-webkit-box-shadow:1px 5px 8px #0288D1;box-shadow:1px 5px 8px #0288D1
+}
+
+.footer_color_h .footer-area {background:#00bcd4}
+.footer_color_h .bottom,
+.footer_color_h .bottom a,
+.footer_color_h .single-footer-widget .services-list li a,
+.footer_color_h .single-footer-widget .services-list li:before,
+.footer_color_h .single-footer-widget .repairplus-info,
+.footer_color_h .single-footer-widget .footer-contact-info li .text-holder h5,
+.footer_color_h .single-footer-widget .footer-contact-info li .icon-holder span:before{color:#fff}
+.footer_color_h .footer-area .footer-widget::before{
+    background:#00ACC1;-moz-box-shadow:1px 5px 8px #0097A7;-webkit-box-shadow:1px 5px 8px #0097A7;box-shadow:1px 5px 8px #0097A7
+}
+
+.footer_color_i .footer-area {background:#009687}
+.footer_color_i .bottom,
+.footer_color_i .bottom a,
+.footer_color_i .single-footer-widget .services-list li a,
+.footer_color_i .single-footer-widget .services-list li:before,
+.footer_color_i .single-footer-widget .repairplus-info,
+.footer_color_i .single-footer-widget .footer-contact-info li .text-holder h5,
+.footer_color_i .single-footer-widget .footer-contact-info li .icon-holder span:before{color:#fff}
+.footer_color_i .footer-area .footer-widget::before{
+    background:#00897B;-moz-box-shadow:1px 5px 8px #00796B;-webkit-box-shadow:1px 5px 8px #00796B;box-shadow:1px 5px 8px #00796B
+}
+
+.footer_color_j .footer-area {background:#4baf50}
+.footer_color_j .bottom,
+.footer_color_j .bottom a,
+.footer_color_j .single-footer-widget .services-list li a,
+.footer_color_j .single-footer-widget .services-list li:before,
+.footer_color_j .single-footer-widget .repairplus-info,
+.footer_color_j .single-footer-widget .footer-contact-info li .text-holder h5,
+.footer_color_j .single-footer-widget .footer-contact-info li .icon-holder span:before{color:#fff}
+.footer_color_j .footer-area .footer-widget::before{
+    background:#43A047;-moz-box-shadow:1px 5px 8px #388E3C;-webkit-box-shadow:1px 5px 8px #388E3C;box-shadow:1px 5px 8px #388E3C
+}
+
+.footer_color_k .footer-area {background:#ff9800}
+.footer_color_k .bottom,
+.footer_color_k .bottom a,
+.footer_color_k .single-footer-widget .services-list li a,
+.footer_color_k .single-footer-widget .services-list li:before,
+.footer_color_k .single-footer-widget .repairplus-info,
+.footer_color_k .single-footer-widget .footer-contact-info li .text-holder h5,
+.footer_color_k .single-footer-widget .footer-contact-info li .icon-holder span:before{color:#fff}
+.footer_color_k .footer-area .footer-widget::before{
+    background:#FB8C00;-moz-box-shadow:1px 5px 8px #F57C00;-webkit-box-shadow:1px 5px 8px #F57C00;box-shadow:1px 5px 8px #F57C00
+}
+
+.footer_color_l .footer-area {background:#ff5721}
+.footer_color_l .bottom,
+.footer_color_l .bottom a,
+.footer_color_l .single-footer-widget .services-list li a,
+.footer_color_l .single-footer-widget .services-list li:before,
+.footer_color_l .single-footer-widget .repairplus-info,
+.footer_color_l .single-footer-widget .footer-contact-info li .text-holder h5,
+.footer_color_l .single-footer-widget .footer-contact-info li .icon-holder span:before{color:#fff}
+.footer_color_l .footer-area .footer-widget::before{
+    background:#F4511E;-moz-box-shadow:1px 5px 8px #E64A19;-webkit-box-shadow:1px 5px 8px #E64A19;box-shadow:1px 5px 8px #E64A19
+}
+
+.footer_color_m .footer-area {background:#152545}
+.footer_color_m .bottom,
+.footer_color_m .bottom a,
+.footer_color_m .single-footer-widget .services-list li a,
+.footer_color_m .single-footer-widget .services-list li:before,
+.footer_color_m .single-footer-widget .repairplus-info,
+.footer_color_m .single-footer-widget .footer-contact-info li .text-holder h5,
+.footer_color_m .single-footer-widget .footer-contact-info li .icon-holder span:before{color:#fff}
+.footer_color_m .footer-area .footer-widget::before{
+    background:#13213e;-moz-box-shadow:1px 5px 8px #0f1b36;-webkit-box-shadow:1px 5px 8px #0f1b36;box-shadow:1px 5px 8px #0f1b36
+}
+
+
+
+
+
+
+
+
