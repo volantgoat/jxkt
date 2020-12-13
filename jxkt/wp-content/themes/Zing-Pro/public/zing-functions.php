@@ -180,3 +180,43 @@ add_action( 'do_faviconico', function() {
 	exit;
 } );
 
+
+function remove_screen_options(){ return false;}
+    add_filter('screen_options_show_screen', 'remove_screen_options');
+    add_filter( 'contextual_help', 'wpse50723_remove_help', 999, 3 );
+    function wpse50723_remove_help($old_help, $screen_id, $screen){
+    $screen->remove_help_tabs();
+    return $old_help;
+}
+
+
+function example_remove_dashboard_widgets() {  
+    // Globalize the metaboxes array, this holds all the widgets for wp-admin  
+    global $wp_meta_boxes;  
+   
+    // 以下这一行代码将删除 "快速发布" 模块  
+    unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_quick_press']);  
+   
+    // 以下这一行代码将删除 "引入链接" 模块  
+    unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_incoming_links']);  
+   
+    // 以下这一行代码将删除 "插件" 模块  
+    unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_plugins']);  
+   
+    // 以下这一行代码将删除 "近期评论" 模块  
+    unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_recent_comments']);  
+   
+    // 以下这一行代码将删除 "近期草稿" 模块  
+    unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_recent_drafts']);  
+   
+    // 以下这一行代码将删除 "WordPress 开发日志" 模块  
+    unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_primary']);  
+   
+    // 以下这一行代码将删除 "其它 WordPress 新闻" 模块  
+    unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_secondary']);  
+   
+    // 以下这一行代码将删除 "概况" 模块  
+    unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_right_now']);  
+}  
+add_action('wp_dashboard_setup', 'example_remove_dashboard_widgets' );
+
